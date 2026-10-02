@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutz &amp; Impressum — PhotoMaid</title>
+<meta name="description" content="Datenschutzerklärung und Impressum der App PhotoMaid (app.photomaid.android).">
+<link rel="canonical" href="https://mrdevn4ever-sys.github.io/photomaid/privacy/">
+<link rel="alternate" hreflang="de" href="https://mrdevn4ever-sys.github.io/photomaid/privacy/">
+<link rel="alternate" hreflang="en" href="https://mrdevn4ever-sys.github.io/photomaid/privacy/en/">
+<link rel="alternate" hreflang="x-default" href="https://mrdevn4ever-sys.github.io/photomaid/privacy/en/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#16202A;
+    --muted:#5A6B78;
+    --paper:#FFFFFF;
+    --surface:#F0F3F5;
+    --rule:#D9E1E6;
+    --accent:#2C6E7F;
+    --accent-soft:#E4EFF2;
+    --flag:#A33A2B;
+    --sheet-max:44rem;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--surface);
+    color:var(--ink);
+    font-family:"Source Serif 4",Georgia,"Times New Roman",serif;
+    font-size:17px;
+    line-height:1.65;
+  }
+  .sheet{
+    max-width:var(--sheet-max);
+    margin:0 auto;
+    background:var(--paper);
+    padding:clamp(1.75rem,5vw,4rem) clamp(1.25rem,5vw,3.5rem) 4rem;
+    min-height:100vh;
+    box-shadow:0 0 0 1px var(--rule);
+  }
+  header{border-bottom:2px solid var(--ink);padding-bottom:1.5rem;margin-bottom:2rem;}
+  .eyebrow{
+    font-family:"Bricolage Grotesque",system-ui,sans-serif;
+    font-weight:700;
+    font-size:.75rem;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:var(--accent);
+    margin:0 0 .6rem;
+  }
+  h1{
+    font-family:"Bricolage Grotesque",system-ui,sans-serif;
+    font-weight:700;
+    font-size:clamp(1.9rem,6vw,2.7rem);
+    line-height:1.1;
+    margin:0 0 .75rem;
+    letter-spacing:-.01em;
+  }
+  .meta{font-size:.95rem;color:var(--muted);margin:0;}
+  .lang{
+    font-family:"Bricolage Grotesque",system-ui,sans-serif;
+    font-size:.85rem;
+    margin:.75rem 0 0;
+  }
+  h2{
+    font-family:"Bricolage Grotesque",system-ui,sans-serif;
+    font-weight:700;
+    font-size:1.3rem;
+    line-height:1.25;
+    margin:2.75rem 0 .85rem;
+    padding-top:1.5rem;
+    border-top:1px solid var(--rule);
+  }
+  h2:first-of-type{border-top:none;padding-top:0;}
+  h3{
+    font-family:"Bricolage Grotesque",system-ui,sans-serif;
+    font-weight:500;
+    font-size:1.02rem;
+    margin:1.6rem 0 .5rem;
+  }
+  p{margin:0 0 1rem;}
+  ul{margin:0 0 1rem;padding-left:1.15rem;}
+  li{margin-bottom:.55rem;}
+  a{color:var(--accent);}
+  strong{font-weight:600;}
+  .lede{
+    background:var(--accent-soft);
+    border-left:4px solid var(--accent);
+    padding:1.15rem 1.25rem;
+    margin:0 0 2rem;
+  }
+  .lede p:last-child{margin-bottom:0;}
+  .addr{
+    font-family:"Bricolage Grotesque",system-ui,sans-serif;
+    font-weight:500;
+    font-style:normal;
+    line-height:1.55;
+    background:var(--surface);
+    padding:1rem 1.25rem;
+    margin:0 0 1rem;
+  }
+  .todo-unused{
+    background:#FBEAE6;
+    border-left:4px solid var(--flag);
+    padding:.9rem 1.1rem;
+    margin:0 0 1rem;
+    font-family:"Bricolage Grotesque",system-ui,sans-serif;
+    font-size:.9rem;
+    color:var(--flag);
+  }
+  table{border-collapse:collapse;width:100%;margin:0 0 1.25rem;font-size:.95rem;}
+  th,td{text-align:left;vertical-align:top;padding:.6rem .7rem;border-bottom:1px solid var(--rule);}
+  th{
+    font-family:"Bricolage Grotesque",system-ui,sans-serif;
+    font-weight:700;
+    font-size:.78rem;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    color:var(--muted);
+  }
+  footer{margin-top:3.5rem;padding-top:1.5rem;border-top:2px solid var(--ink);font-size:.9rem;color:var(--muted);}
+  .print-hint{
+    font-family:"Bricolage Grotesque",system-ui,sans-serif;
+    font-size:.85rem;
+    background:none;
+    border:1px solid var(--rule);
+    color:var(--muted);
+    padding:.5rem .9rem;
+    cursor:pointer;
+    margin-top:1rem;
+  }
+  .print-hint:hover{border-color:var(--accent);color:var(--accent);}
+  .print-hint:focus-visible{outline:2px solid var(--accent);outline-offset:2px;}
+  @media print{
+    body{background:#fff;font-size:11pt;}
+    .sheet{box-shadow:none;max-width:none;padding:0;}
+    .print-hint,.lang{display:none;}
+    h2{page-break-after:avoid;}
+  }
+</style>
+</head>
+<body>
+<main class="sheet">
+
+<header>
+  <p class="eyebrow">PhotoMaid · app.photomaid.android</p>
+  <h1>Datenschutz &amp; Impressum</h1>
+  <p class="meta">Veröffentlicht: 2. Oktober 2026</p>
+  <p class="lang" aria-label="Sprache"><strong aria-current="page">DE</strong> · <a href="en/" hreflang="en" lang="en">EN</a></p>
+</header>
+
+<div class="lede">
+<p><strong>Kurz gesagt:</strong> PhotoMaid sortiert deine Fotos, Videos und Dateien auf deinem Gerät. Es gibt keinen PhotoMaid-Server, kein Konto und keinen Upload. Deine Medien, Dateinamen, Pfade und Entscheidungen verlassen das Gerät nicht durch PhotoMaid. In der kostenlosen Version zeigt Google AdMob Werbung; dafür verarbeitet Google Geräte- und Netzwerkdaten, im EWR, in der Schweiz und im Vereinigten Königreich erst nach deiner Einwilligungsentscheidung. Käufe laufen über Google Play.</p>
+</div>
+
+<h2>1. Verantwortlicher und Impressum</h2>
+
+<p>Verantwortlich für die Datenbearbeitung und Anbieter der App:</p>
+
+<address class="addr">
+Michael Spiess<br>
+Riedmattstrasse 1<br>
+6030 Ebikon<br>
+Schweiz<br>
+E-Mail: <a href="mailto:puredevn.io@gmail.com">puredevn.io@gmail.com</a>
+</address>
+
+<p>PhotoMaid wird als Einzelunternehmen unter der Bezeichnung „PureDevn Studio“ betrieben. Für alle Fragen zum Datenschutz und für die Ausübung deiner Rechte genügt eine E-Mail an die oben genannte Adresse.</p>
+
+<h2>2. Deine Medien und Dateien</h2>
+
+<p>Damit du aufräumen kannst, liest PhotoMaid mit deiner Erlaubnis (Android-Berechtigung „Fotos und Videos“, auf Wunsch nur ausgewählte) deine Fotos und Videos sowie Angaben dazu: Aufnahme- und Hinzufügedatum, Dateigrösse, Videodauer, Abmessungen, Ordner und ob ein Medium als Favorit markiert ist. Dateien in Ordnern liest die App nur, wenn du einen Ordner ausdrücklich über die Android-Ordnerauswahl freigibst.</p>
+
+<ul>
+  <li>Alles wird <strong>auf deinem Gerät</strong> angezeigt, sortiert und verglichen. PhotoMaid lädt keine Medien hoch und hat keinen eigenen Server.</li>
+  <li>Für die Suche nach identischen Kopien berechnet die App Prüfsummen der Dateien. Diese liegen nur während der Suche im Arbeitsspeicher und werden nicht gespeichert.</li>
+  <li>Vorschaubilder werden nur im Arbeitsspeicher zwischengespeichert.</li>
+  <li>PhotoMaid verwendet keine künstliche Intelligenz, keine Bild- oder Gesichtserkennung und keine Analyse-Dienste.</li>
+</ul>
+
+<p><strong>Rechtsgrundlage:</strong> Bereitstellung der von dir genutzten App-Funktion (Art. 6 Abs. 1 lit. b DSGVO). Die Berechtigung kannst du jederzeit in den Android-Einstellungen entziehen.</p>
+
+<h2>3. Was auf deinem Gerät gespeichert wird</h2>
+
+<ul>
+  <li>deine Entscheidungen (behalten, Papierkorb, später) mit einer gerätelokalen Kennung des jeweiligen Mediums, der Verlauf und die Möglichkeit, rückgängig zu machen</li>
+  <li>Später-Termine, der Inhalt des PhotoMaid-Papierkorbs und die Liste der freigegebenen Ordner</li>
+  <li>Einstellungen, Schnellzugriffe und Sammlungen (als Filter, ohne Medienkennungen)</li>
+  <li>der Tageszähler für Entfernungen, die Nutzung von Pro-Test und Video-Bonus, der Kaufstatus und die Summe des bisher gesparten Speicherplatzes</li>
+  <li>ein Zähler zur Steuerung der Werbehäufigkeit</li>
+</ul>
+
+<p>Diese Daten liegen im geschützten App-Speicher. Damit deine Entscheidungen eine Wiederherstellung überstehen, sind sie in der <strong>Android-Sicherung</strong> enthalten. Hast du die Sicherung in deinem Google-Konto aktiviert, werden sie dort von Google gespeichert; das steuerst du in den Android-Einstellungen. Wenn du die App deinstallierst oder ihre Daten löschst, werden die Daten auf dem Gerät entfernt.</p>
+
+<h2>4. Löschen und Verschieben</h2>
+
+<p>PhotoMaid löscht nie automatisch. Ein Wisch nach links legt ein Medium nur in den PhotoMaid-eigenen Papierkorb. Entfernt wird erst, wenn du den Papierkorb leerst und Android dies in einem Systemdialog noch einmal bestätigen lässt. Fotos und Videos landen dabei im Papierkorb von Android. Dateien aus freigegebenen Ordnern werden endgültig gelöscht; darauf weist die App vorher hin. Synchronisiert ein Cloud-Dienst deine Mediathek, kann sich das Löschen auch auf deine anderen Geräte auswirken. Das Markieren als Favorit und das Verschieben in einen Ordner laufen ebenfalls über Android-Systemdialoge.</p>
+
+<h2>5. Mitteilungen</h2>
+
+<p>Wenn du sie erlaubst, erinnert PhotoMaid dich an Medien, die du auf später gelegt hast. Die Mitteilungen werden auf dem Gerät geplant und enthalten keine Dateinamen.</p>
+
+<h2>6. Werbung</h2>
+
+<p>In der kostenlosen Version blendet PhotoMaid Werbung von <strong>Google AdMob</strong> ein: gekennzeichnete Werbekarten zwischen den Medien, eine Anzeige in der Zusammenfassung und freiwillige Werbevideos (für den 30-Minuten-Pro-Test oder den Bonus für zusätzliche Entfernungen). Nach dem Kauf von Pro wird keine Werbung mehr gezeigt.</p>
+
+<p>Werbeanfragen enthalten <strong>keine</strong> Medien, Dateinamen, Pfade, Prüfsummen oder Medienkennungen. Google verarbeitet für Einwilligungsprüfung, Auslieferung, Abrechnung, Betrugsschutz und Diagnose jedoch Geräte- und Netzwerkdaten. Nach Googles Angaben gehören dazu insbesondere:</p>
+
+<ul>
+  <li>die IP-Adresse, unter anderem zur groben Standortbestimmung</li>
+  <li>Geräte- und App-Kennungen, gegebenenfalls die Android-Werbe-ID</li>
+  <li>Interaktionen mit der Werbung, etwa Einblendungen und Klicks</li>
+  <li>Diagnose- und Leistungsdaten</li>
+</ul>
+
+<p>Ob Werbung personalisiert wird, hängt von deiner Einwilligung ab. Google ist für diese Verarbeitung eigenverantwortlich. Einzelheiten: <a href="https://policies.google.com/privacy">Datenschutzerklärung von Google</a> und <a href="https://policies.google.com/technologies/partner-sites">Datennutzung durch Google bei Partner-Apps</a>.</p>
+
+<h3>Einwilligung im Europäischen Wirtschaftsraum, in der Schweiz und im Vereinigten Königreich</h3>
+
+<p>Vor dem ersten Laden von Werbung fragt die App über Googles Einwilligungsplattform (UMP), ob und wie Werbung angezeigt werden darf. Ohne Freigabe startet die App das Werbe-SDK nicht und lädt keine Anzeigen. Deine Entscheidung kannst du jederzeit in den Einstellungen unter „Werbe-Einwilligung ändern“ anpassen. Schon die Einwilligungsprüfung überträgt technische Daten an Google.</p>
+
+<p><strong>Rechtsgrundlage:</strong> deine Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), soweit auf dein Endgerät zugegriffen oder Werbung personalisiert wird; im Übrigen unser berechtigtes Interesse an der Finanzierung der kostenlosen App (Art. 6 Abs. 1 lit. f DSGVO).</p>
+
+<h2>7. Käufe</h2>
+
+<p>PhotoMaid Pro ist ein einmaliger Kauf über <strong>Google Play</strong>, kein Abo. Die App verarbeitet dafür Produkt-, Kauf- und Transaktionsinformationen und speichert den Kaufstatus lokal; sie erhebt keine Zahlungsdaten. Die Google Play Billing Library sendet eigene Diagnosedaten an Google. Für die Zahlungsabwicklung gelten die Bedingungen und die Datenschutzerklärung von Google Play.</p>
+
+<p><strong>Rechtsgrundlage:</strong> Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO).</p>
+
+<h2>8. Empfänger und Übermittlung ins Ausland</h2>
+
+<table>
+  <thead><tr><th>Empfänger</th><th>Zweck</th><th>Ort der Bearbeitung</th></tr></thead>
+  <tbody>
+    <tr><td>Google (AdMob, UMP)</td><td>Einwilligungsprüfung, Werbung in der kostenlosen Version</td><td>USA und weitere Länder</td></tr>
+    <tr><td>Google (Google Play)</td><td>Kaufabwicklung, Diagnose der Kaufbibliothek</td><td>USA und weitere Länder</td></tr>
+    <tr><td>Google (Android-Sicherung)</td><td>nur wenn du die Sicherung aktiviert hast</td><td>gemäss deinem Google-Konto</td></tr>
+  </tbody>
+</table>
+
+<p>PhotoMaid selbst übermittelt keine Daten an uns. Bei einer Übermittlung in Länder ausserhalb der Schweiz und des Europäischen Wirtschaftsraums stützt sich Google auf die Standardvertragsklauseln der Europäischen Kommission sowie auf Angemessenheitsbeschlüsse, soweit sie für das jeweilige Land bestehen.</p>
+
+<h2>9. Wie lange Daten aufbewahrt werden</h2>
+
+<p>Die Daten auf deinem Gerät bleiben, bis du sie in der App änderst, die App-Daten löschst oder die App deinstallierst. Für Sicherungen in deinem Google-Konto gelten die Einstellungen deines Kontos. Wir selbst speichern keine Daten über dich auf einem Server.</p>
+
+<h2>10. Deine Rechte</h2>
+
+<p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Bearbeitung, Datenübertragbarkeit sowie das Recht, einer Bearbeitung zu widersprechen. Eine Einwilligung kannst du jederzeit mit Wirkung für die Zukunft widerrufen. Da PhotoMaid kein Konto anlegt und keine Daten an uns sendet, liegen uns in der Regel keine Daten über dich vor; deine Daten in der App kannst du selbst löschen. Für Daten, die Google verarbeitet, wende dich an Google.</p>
+
+<p>Für alle Anliegen genügt eine E-Mail an <a href="mailto:puredevn.io@gmail.com">puredevn.io@gmail.com</a>.</p>
+
+<h3>Beschwerdestellen</h3>
+
+<ul>
+  <li><strong>Schweiz:</strong> Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter (EDÖB), Bern</li>
+  <li><strong>Europäischer Wirtschaftsraum:</strong> die Datenschutzaufsichtsbehörde deines Wohnsitzlandes</li>
+</ul>
+
+<h2>11. Kinder</h2>
+
+<p>PhotoMaid richtet sich nicht an Kinder unter 13 Jahren. Wir erheben wissentlich keine Daten von Kindern. Wenn du Elternteil oder erziehungsberechtigt bist und Fragen hast, schreib uns.</p>
+
+<h2>12. Änderungen dieser Erklärung</h2>
+
+<p>Wir passen diese Erklärung an, wenn sich die App oder die Rechtslage ändert. Massgeblich ist die jeweils auf dieser Seite veröffentlichte Fassung. Das Datum der aktuellen Fassung steht oben.</p>
+
+<button class="print-hint" onclick="window.print()">Diese Seite drucken</button>
+
+<footer>
+  <p>PhotoMaid · app.photomaid.android · Michael Spiess, Ebikon (Schweiz) · <a href="/">PureDevn Studio</a></p>
+</footer>
+
+</main>
+</body>
+</html>
